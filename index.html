@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site pessoal test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 19px; 
+        }
+
+        header {
+            background-color: #071b74;
+            color: #fcf8f8;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-picture {
+            margin-right: 20px;
+            transition: transform 0.3s ease; 
+        }
+
+        .profile-picture img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+        .profile-picture img:hover {
+            transform: scale(1.1); 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fdfcfc;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 60px;
+        }
+
+        footer {
+            background-color: #0b156e;
+            color: #fffbfb;
+            text-align: center;
+            padding: 10px;
+            
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-picture">
+            <img src="eu.jpg" alt="Foto de Perfil">
+        </div>
+        <div class="profile-info">
+            <h1>Luan Martins</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bio">Sobre mim</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#redes">Redes Sociais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="bio">
+        <h2>Sobre mim</h2>
+        <p>Eu sou Luan Martins, atualmente em transição de carreira para a área de TI. Sou uma pessoa tranquila, apaixonada por tecnologia e sempre em busca de aprendizado. Tenho grande interesse em desenvolvimento web e programação, e estou constantemente buscando aprimorar minhas habilidades nessas áreas. Gosto de conversar sobre diversos assuntos e compartilhar conhecimento.</p>
+        <p>Formado em tecnico em eletromecânica e bacharelado em administração, minha experiência profissional abrange áreas como administração de empresas e manutenção técnica. Atualmente, atuo como responsável pela parte fiscal em uma empresa de engenharia mecânica, mas quero muito expandir minha carreira na área de tecnologia.</p>
+    </section>
+    
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li>
+                <h3>Administrador de Empresas</h3>
+                <p>Experiência em gestão administrativa, incluindo planejamento estratégico, controle financeiro e recursos humanos.</p>
+            </li>
+            <li>
+                <h3>Tecnico Eletromecânico</h3>
+                <p>Habilidades técnicas em manutenção eletromecânica, diagnóstico de falhas e reparos de equipamentos industriais.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="formacao" class="formacao">
+        <h2>Formação</h2>
+        <p>Técnico Eletromecânico - SENAI-CABO</p>
+        <p>Bacharelado em Administração - UNINASSAU</p>
+        <p>Cursos complementares em Manutenção de Microcomputadores e Inglês Intermediário.</p>
+    </section>
+    
+        
+    </section>
+    
+    <section id="redes">
+        <h2>Redes Sociais</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/luan-martins-9a8612269/" target="_blank">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/luanm.souza/" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/ViralZero" target="_blank">Github</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; Luan</p>
+    </footer>
+</body>
+</html>
